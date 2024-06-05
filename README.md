@@ -11,7 +11,7 @@ Any problems/suggestions: https://discord.gg/bulgarog
 
 ## Memory Minigame
 ```
-    local success = exports['SN-Hacking']:MemoryGame(3, 2, 10) --MemoryGame(keysNeeded(number), rounds(number), time(milliseconds))
+    local success = exports['sp-minigame']:MemoryGame(3, 2, 10) --MemoryGame(keysNeeded(number), rounds(number), time(milliseconds))
     if success then
         print("success")
     else
@@ -22,7 +22,7 @@ Any problems/suggestions: https://discord.gg/bulgarog
 
 ## Number Up Minigame
 ```
-    local success = exports['SN-Hacking']:NumberUp(28, 2, 2, 40, 20) --NumberUp(keys(number), rounds(number), tries(number), time(milliseconds), shuffleTime(milliseconds))
+    local success = exports['sp-minigame']:NumberUp(28, 2, 2, 40, 20) --NumberUp(keys(number), rounds(number), tries(number), time(milliseconds), shuffleTime(milliseconds))
     if success then
         print("success")
     else
@@ -34,7 +34,7 @@ Any problems/suggestions: https://discord.gg/bulgarog
 ## Skill Check Minigame
 
 ```
-    local success = exports['SN-Hacking']:SkillCheck(50, 5000, {'w','a','s','w'}, 2, 20, 3) --SkillCheck(speed(milliseconds), time(milliseconds), keys(string or table), rounds(number), bars(number), safebars(number))
+    local success = exports['sp-minigame']:SkillCheck(50, 5000, {'w','a','s','w'}, 2, 20, 3) --SkillCheck(speed(milliseconds), time(milliseconds), keys(string or table), rounds(number), bars(number), safebars(number))
     if success then
         print("success")
     else
@@ -46,7 +46,7 @@ Any problems/suggestions: https://discord.gg/bulgarog
 ## Thermite Minigame
 
 ```
-    local success = exports['SN-Hacking']:Thermite(7, 5, 10000, 2, 2, 3000) --Thermite(boxes(number), correctboxes(number), time(milliseconds), lifes(number), rounds(number), showTime(milliseconds))
+    local success = exports['sp-minigame']:Thermite(7, 5, 10000, 2, 2, 3000) --Thermite(boxes(number), correctboxes(number), time(milliseconds), lifes(number), rounds(number), showTime(milliseconds))
     if success then
         print("success")
     else
@@ -58,7 +58,7 @@ Any problems/suggestions: https://discord.gg/bulgarog
 ## Skill Bar Minigame
 
 ```
-    local success = exports['SN-Hacking']:SkillBar({2000, 3000}, 10, 2) --SkillBar(duration(milliseconds or table{min(milliseconds), max(milliseconds)}), width%(number), rounds(number))
+    local success = exports['sp-minigame']:SkillBar({2000, 3000}, 10, 2) --SkillBar(duration(milliseconds or table{min(milliseconds), max(milliseconds)}), width%(number), rounds(number))
     if success then
         print("success")
     else
@@ -70,12 +70,12 @@ Any problems/suggestions: https://discord.gg/bulgarog
 ## Keypad Minigame
 
 ```
-    exports['SN-Hacking']:ShowNumber(999, 3000) --ShowNumber(code(number), time(milliseconds))
+    exports['sp-minigame']:ShowNumber(999, 3000) --ShowNumber(code(number), time(milliseconds))
 ```
 ![image](https://github.com/skeletonnetworks/SN-Hacking/assets/54223504/7ab6bf59-2bf2-4ffd-920d-2df0dbb55a52)
 
 ```
-    local success = exports['SN-Hacking']:KeyPad(999, 3000) --KeyPad(code(number), time(milliseconds))
+    local success = exports['sp-minigame']:KeyPad(999, 3000) --KeyPad(code(number), time(milliseconds))
     if success then
         print("success")
     else
@@ -87,7 +87,7 @@ Any problems/suggestions: https://discord.gg/bulgarog
 ## Color Picker
 
 ```
-    local success = exports['SN-Hacking']:ColorPicker(3, 7000, 3000)--ColorPicker(icons(number), typeTime(milliseconds), viewTime(milliseconds))
+    local success = exports['sp-minigame']:ColorPicker(3, 7000, 3000)--ColorPicker(icons(number), typeTime(milliseconds), viewTime(milliseconds))
     if success then
         print("success")
     else
@@ -100,7 +100,7 @@ Any problems/suggestions: https://discord.gg/bulgarog
 ## Memory Cards
 
 ```
-    local success = exports['SN-Hacking']:MemoryCards('medium') --MemoryCards(difficulty(easy, medium, hard), rounds(number))
+    local success = exports['sp-minigame']:MemoryCards('medium') --MemoryCards(difficulty(easy, medium, hard), rounds(number))
     if success then
         print("success")
     else
@@ -112,7 +112,7 @@ Any problems/suggestions: https://discord.gg/bulgarog
 ## Mines
 
 ```
-    local multiplier = exports['SN-Hacking']:Mines(5, 3, 9, 1) --Mines(boxes(number), lifes(number), mines(number), special(number), values defaut: {normal= 0.1, mine= -0.5, special= 2, finished= 10})
+    local multiplier = exports['sp-minigame']:Mines(5, 3, 9, 1) --Mines(boxes(number), lifes(number), mines(number), special(number), values defaut: {normal= 0.1, mine= -0.5, special= 2, finished= 10})
     if multiplier then
         print(multiplier)
     else
