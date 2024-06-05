@@ -7,7 +7,7 @@ Credits to:
  - https://prodigyworld.net/ 
   - https://forum.cfx.re/t/free-howdys-hack-minigame/4814601
 
-Any problems/suggestions: https://discord.gg/YgmWhMxtPU
+Any problems/suggestions: https://discord.gg/bulgarog
 
 ## Memory Minigame
 ```
