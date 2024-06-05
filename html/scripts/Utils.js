@@ -157,7 +157,7 @@ function EndMinigame(bool, id, NexGame, style) {
       document.getElementById("ResultBanner").style.backgroundColor = "#769719";
       document.getElementById("ResultBanner").innerHTML = `
       <i class="fa-solid fa-circle-check" style="position: absolute; width: 2.5vh;height: 2.5vh; top: 0.7vh; left: 1vh; font-size: 2.5vh; color: white;"></i>
-      <div id="ResultText" class="ResultText">Явно ставаш...</div>`;
+      <div id="ResultText" class="ResultText">Success...</div>`;
       playsound("success");
       setTimeout(function () {
         document.getElementById("ResultScreen").remove();
@@ -169,7 +169,7 @@ function EndMinigame(bool, id, NexGame, style) {
       document.getElementById("ResultBanner").style.backgroundColor = "#630F0A";
       document.getElementById("ResultBanner").innerHTML = `
       <i class="fa-solid fa-circle-xmark" style="position: absolute; width: 2.5vh;height: 2.5vh; top: 0.7vh; left: 1vh; font-size: 2.5vh;"></i>
-      <div id="ResultText" class="ResultText">Не ставаш...</div>`;
+      <div id="ResultText" class="ResultText">Failed...</div>`;
       playsound("fail");
       setTimeout(function () {
         document.getElementById("ResultScreen").remove();
