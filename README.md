@@ -1,7 +1,9 @@
 
-### SN-Hacking
+### Bulgar Development Minigames Collection
 A resource containing a bundle of hacking minigames for FiveM.
 Credits to:
+ - https://github.com/skeletonnetworks/SN-Hacking
+ - https://github.com/MaximilianAdF/NoPixel-MiniGames-4.0
  - https://prodigyworld.net/ 
   - https://forum.cfx.re/t/free-howdys-hack-minigame/4814601
 
