@@ -272,12 +272,6 @@ end)
 RegisterNUICallback('Success', function()
     SetNuiFocus(false, false)
 
-    local isBotnetReward = lib.table.contains(minigamesWithBotnetReward, inMinigame)
-    if isBotnetReward and exports["sp-blackmarket-encrypted"]:CanPlayerInteract("isHacker", true) then
-        TriggerEvent('QBCore:Notify', "Получихте 5 BotNet-а.", "success", 3000)
-        TriggerServerEvent('hackermod:server:addBotnet', 5)
-    end
-
     result = true
     inMinigame = false
 end)
